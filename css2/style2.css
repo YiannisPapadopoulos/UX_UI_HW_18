@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #595959;
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 0%;
+    box-shadow: 0 20px 20px -20px #78909c;
+    border-bottom: 2px solid  #ffd600;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+header div {
+    width: 40%;
+    padding: 1%;
+}
+#logo {
+    width: 10%;
+}
+nav {
+    width: 50%;
+    margin-left: 5.5%;
+}
+nav ul li {
+    padding: 5%;
+    font-family: Crimson Pro;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul li a {
+    color: #595959;
+}
+a:hover {
+    color: #3fafff;  
+}
+#hed{
+    border: 1px solid #ffd600;
+  } 
+#aboutme {
+    display: flex;
+    padding: 10% 0% 5% 0%;
+   
+}
+#illocontainer {
+    display: flex;
+    flex-direction: column;    
+}
+#imgcontainer {
+    width: 40%;
+}
+#imgcontainer img {
+   width: 100%;
+   margin-left: 38%;
+   margin-top: 20%;
+}
+h1 {
+    font-family: Crimson Pro;
+    font-size: 300%; 
+    margin-bottom: 3%;
+}
+p {
+    font-family: Roboto Mono;
+}
+#quote {
+    font-family: Crimson Pro;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-bottom: -10%;
+    margin-top: 1%;
+    width: 21%;
+    z-index: 100;
+}
+span {
+    font-style: italic;
+    text-align: right;
+    font-size: 18px;
+}
+#textcontainer {
+    width: 60%;
+    margin-left: -30%;
+    margin-right: 20%;
+}
+ul li {
+    display: inline-block;
+    font-family: Roboto Mono;
+    padding-right: 5%;
+    font-size: 18px;
+}
+a:hover {
+    color: #3fafff;  
+}
+hr {
+    border: 1px solid #ffd600;
+  } 
+#skillstools {
+    display: grid;
+    grid-template-columns: 80% 2px 19%;
+    grid-template-rows: 19% 80% 80%;
+    grid-template-areas: 
+    "title ruller columntitle"
+    "columncontainer ruller column";
+}
+#title {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "headline subtitle";
+    padding: 5%;
+    margin-left: 1%;  
+    }
+#headline {
+    grid-area: headline;
+}
+#subtitle {
+    grid-area: subtitle;
+    width: 50%;
+    margin-left: -14%;
+}
+#columncontainer {
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-areas: "subcolumn1 subcolumn2 subcolumn3";
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+#subcolumn1 {
+    grid-area: subcolumn1;
+}
+#subcolumn2 {
+    grid-area: subcolumn2;
+}
+#subcolumn3 {
+    grid-area: subcolumn3;
+}
+span {
+    font-family: Crimson Pro;
+}
+#ruller {
+    grid-area: ruller;
+    background-color: #ffd600;
+}
+#columntitle {
+    grid-area: columntitle;
+    margin-left: 15%;
+    margin-top: 20%;   
+}
+#column {
+    grid-area: column;
+    margin-left: 15%;
+    margin-top: 20%;   
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header {
+        width: 100vw;  
+        border-bottom: 2px solid #ffd600;
+        position: fixed;
+        z-index: 9999;
+        top: 0%;
+        left: 0;
+    }
+    header div {
+        padding: 10px;
+        width: 20%;
+    }
+    #mobid {
+        display: flex;
+    }
+    #logo {
+        width: 35px;
+    }
+    nav {
+        width: 100%;
+        margin: auto;
+        padding-left: -2%;
+    }
+    nav ul li {
+        padding: 1%;
+        font-family: Crimson Pro;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #aboutme {
+        display: flex;
+        flex-direction: column;
+        top: 0%;
+       
+    }
+    #illocontainer {
+        margin-left: -2%;
+    }
+    #quote {
+        font-family: Crimson Pro;
+        font-size: 16px;
+        margin-left: 48%;
+        margin-bottom: -25%;
+        margin-top: 15%;
+        width: 50%;
+        z-index: 100;
+    }
+    span {
+        font-size: 16px;
+    }
+    #imgcontainer {
+        width: 65%;
+        top: 0%;
+    }
+    #imgcontainer img {
+       width: 100%;
+       margin-left: 7%;
+       margin-top: 25%; 
+    }
+    #textcontainer {
+        width: auto;
+        margin-top: 5%;
+        margin-left: 5%;
+    } 
+    #textcontainer h1 {
+        font-size: 10.5vw;
+    }
+    #skillstools {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "title columncontainer ruller columntitle column";
+    }
+    #title {
+        display:grid;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: "headline subtitle";
+        padding: 5%;
+        margin-left: 1%;  
+        }
+    #columncontainer {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "subcolumn1 subcolumn2 subcolumn3";
+    }
+    
+
+}
+
+
+

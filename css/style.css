@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #595959;
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    box-shadow: 0 20px 20px -20px #78909c;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+header div {
+    width: 40%;
+    padding: 1%;
+}
+#logo {
+    width: 10%;
+}
+nav {
+    width: 50%;
+    margin-left: 5.5%;
+}
+nav ul li {
+    padding: 5%;
+    font-family: Crimson Pro;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul li a {
+    color: #595959;
+}
+a:hover {
+    color: #3fafff;  
+}
+#hed{
+    border: 1px solid #ffd600;
+  } 
+#aboutme {
+    display: flex;
+    padding: 10% 0% 5% 0%;
+   
+}
+#illocontainer {
+    display: flex;
+    flex-direction: column;    
+}
+#quote {
+    width: 50%;
+}
+#imgcontainer {
+    width: 40%;
+}
+#imgcontainer img {
+   width: 100%;
+   margin-left: 38%;
+   margin-top: 20%;
+}
+h1 {
+    font-family: Crimson Pro;
+    font-size: 300%; 
+    margin-bottom: 3%;
+}
+p {
+    font-family: Roboto Mono;
+}
+#quote {
+    font-family: Crimson Pro;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-bottom: -10%;
+    margin-top: 1%;
+    width: 21%;
+    z-index: 100;
+}
+span {
+    font-style: italic;
+    text-align: right;
+    font-size: 18px;
+}
+#textcontainer {
+    
+    width: 60%;
+    margin-left: -30%;
+    margin-right: 20%;
+}
+ul li {
+    display: inline-block;
+    font-family: Roboto Mono;
+    padding-right: 5%;
+    font-size: 18px;
+}
+a:hover {
+    color: #3fafff;  
+}
+hr {
+    border: 1px solid #ffd600;
+  } 
+#skillstools {
+    display: grid;
+    grid-template-columns: 80% 1% 19%;
+    grid-template-areas: "box line column";
+}
+#box {
+    grid-area: box;
+    margin-bottom: 5%;
+}
+#line {
+    grid-area: line;
+    width: 0px;
+    height: 100vh;
+    background-color: #ffd600;
+}
+#column {
+    grid-area: column;
+    margin-left: 15%;
+    margin-top: 20%;
+    
+}
+#title {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "headline subtitle";
+    padding: 5%;
+    margin-left: 1%;
+}
+#headline {
+    grid-area: headline;
+}
+#subtitle {
+    grid-area: subtitle;
+    width: 50%;
+    margin-left: -14%;
+}
+#columncontainer {
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-areas: "subcolumn1 subcolumn2 subcolumn3";
+    justify-content: space-evenly;
+    border-right: 2px solid #ffd600;
+}
+#subcolumn1 {
+    grid-area: subcolumn1;
+}
+#subcolumn2 {
+    grid-area: subcolumn2;
+}
+#subcolumn3 {
+    grid-area: subcolumn3;
+}
+span {
+    font-family: Crimson Pro;
+}
+#column h1 {
+    margin-bottom: 25%;
+}
+
+
